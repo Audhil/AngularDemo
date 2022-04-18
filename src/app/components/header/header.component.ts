@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'ZAngularCLI';
+  title: string = 'Task Tracker App';
 
   constructor() { }
 
