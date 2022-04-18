@@ -26,7 +26,6 @@ export class TaskItemComponent implements OnInit {
   }
 
   onToggle(task: Task) {
-    console.log(`yup clicked ${task}`)
     this.onToggleReminder.emit(task)
   }
 }
